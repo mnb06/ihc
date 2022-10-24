@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#start {
+    height: 100vh;
+    background: rgb(229,227,255);
+    background: linear-gradient(90deg, rgba(229,227,255,1) 0%, rgba(255,255,255,1) 35%, rgba(255,220,246,1) 100%);
+    
+}
+
+#nav-link:hover {
+    background-color: rgba(208, 208, 208, 0.514);
+    -webkit-transition: background-color 600ms linear;
+    -ms-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+}
+
+#title {    
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 64px;
+    margin-top: 350px
+}
+
+#desc {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#products {
+    height: 100vh;
+}
+
+#product-title {
+    background-color: ghostwhite;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 7px;
+    padding: 25px 0px;
+}
