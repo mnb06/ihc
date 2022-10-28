@@ -1,14 +1,25 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #start {
     height: 100vh;
     background: rgb(229,227,255);
     background: linear-gradient(90deg, rgba(229,227,255,1) 0%, rgba(255,255,255,1) 35%, rgba(255,220,246,1) 100%);
-    
+   
 }
+
 
 #nav-link:hover {
     background-color: rgba(208, 208, 208, 0.514);
@@ -17,12 +28,23 @@ body{
     transition: background-color 600ms linear;
 }
 
-#title {    
+#main{
+margin-top: 150px;
+}
+
+#logo{
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+
+}
+
+#title {  
+    margin: 0 auto;  
     text-align: center;
     font-weight: bold;
     letter-spacing: 10px;
     font-size: 64px;
-    margin-top: 350px
 }
 
 #desc {
@@ -30,6 +52,8 @@ body{
     font-style: italic;
     font-weight: 400;
 }
+
+
 
 #products {
     height: 100vh;
@@ -41,4 +65,17 @@ body{
     font-weight: 200;
     letter-spacing: 7px;
     padding: 25px 0px;
+}
+
+.img-product {
+    padding: 20px;
+    max-height: 300px;
+    border-radius: 25px;
+    object-fit: cover;
+
+}
+
+.product-title{
+    font-size: 30px;
+    font-weight: 200;
 }
