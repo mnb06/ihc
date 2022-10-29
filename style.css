@@ -12,13 +12,13 @@ html {
 body{
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
+    background: rgb(242,209,180);
+background: linear-gradient(180deg, rgba(242,209,180,1) 0%, rgba(242,209,119,1) 63%, rgba(242,209,68,1) 100%);
 }
 
 
 #start {
     height: 100vh;
-    background: rgb(242,209,180);
-    background: linear-gradient(90deg, rgba(242,209,180,1) 0%, rgba(242,209,119,1) 63%, rgba(242,209,68,1) 100%);
 }
 
 #nav-link:hover {
@@ -59,8 +59,8 @@ margin-top: 150px;
 }
 
 
-#product-title {
-    background-color: ghostwhite;
+#section-title {
+    background-color: rgb(255, 237, 165);
     text-align: center;
     font-weight: 200;
     letter-spacing: 7px;
@@ -95,4 +95,37 @@ figcaption {
     margin-bottom: 10px;
     margin-top: -15px;
     
+}
+
+#contact {
+    height: 100vh;
+}
+
+#redes {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#red {
+    font-size: 60px;
+    margin: 0 50px;
+}
+
+#red:first-of-type {
+    color: rgb(251, 122, 208);
+}
+
+#red:last-of-type {
+    color: rgb(0, 255, 0);
+}
+
+footer {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-style: italic;
 }
