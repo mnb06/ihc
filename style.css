@@ -13,7 +13,7 @@ body{
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     background: rgb(242,209,180);
-background: linear-gradient(180deg, rgba(242,209,180,1) 0%, rgba(242,209,119,1) 63%, rgba(242,209,68,1) 100%);
+    background: linear-gradient(180deg, rgba(242,209,180,1) 0%, rgba(242,209,119,1) 63%, rgba(242,209,68,1) 100%);
 }
 
 
@@ -84,7 +84,7 @@ margin-top: 150px;
 
 }
 
-#product-container {
+#product-container{
     border: 2px solid rgba(131, 131, 131, 0.443);
     border-radius: 5px;
 }
@@ -94,11 +94,14 @@ figcaption {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: -15px;
-    
 }
 
 #contact {
     height: 100vh;
+}
+
+#about{
+    height: 110vh;
 }
 
 #redes {
@@ -129,3 +132,33 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+#consultas-sugerencias{
+    height: 100vh;
+    padding: 20px;    
+}
+
+#sugerencias-form{
+    margin: 0 auto;
+    width: 400px;
+}
+
+#item{
+    margin: 5px;
+    text-align: left;
+}
+
+input{
+    width: 400px;
+}
+
+textarea{
+    height: 50px;
+    width: 400px;
+}
+
+#historia{
+    font-size: larger;
+    font-style: italic;
+}
+
