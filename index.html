@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
+    <title>Confiteria Nilo</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <!-- CSS only -->
@@ -38,54 +38,83 @@
         <div class="row text-center mt-5 border-1 mx-1">
 
             <!-- Tortas -->
-            <div id="product-container" class="col bg-light mx-2">
+            <div id="product-container" class="col bg-light mx-2 align-items-center">
                 <p class="product-title">Tortas</p>
-                <div class="row-cols-1">
-                    <img class="img-product" src="resources/cheesecake.jpg" alt="cheesecake">
-                    <figcaption>Cheesecake</figcaption>
-                </div>
-                <div class="row-cols-1">
-                    <img class="img-product" src="resources/choco.jpg" alt="cheesecake">
-                    <figcaption>Chocotower</figcaption>
-                </div>
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/cheesecake.jpg" alt="Torta Cheseecake">
+                    <div class="card-body">
+                      <h5 class="card-title">Cheseecake</h5>
+                      <p class="card-text">Relleno con una mezcla de queso fresco y suave, cubierto con fruta y crema batida.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/choco.jpg" alt="Torta ChocoTower">
+                    <div class="card-body">
+                      <h5 class="card-title">ChocoTower</h5>
+                      <p class="card-text">Magnifica Torta de chocolate cubierta completamente por dulce de leche repostero.</p>
+                    </div>
+                  </div>
             </div>
 
             <!-- Masas Finas -->
             <div id="product-container" class="col bg-light mx-2 border-1">
                 <p class="product-title">Masas Finas</p>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/masas.jpg" alt="masas finas">
-                    <figcaption>Alfajores</figcaption>
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/masas.jpg" alt="Alfajores">
+                    <div class="card-body">
+                      <h5 class="card-title">Alfajores</h5>
+                      <p class="card-text">Pequeños alfajores bañados en una fina capa de chocolate con una almendra en el centro</p>
+                    </div>
                 </div>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/roscas.jpg" alt="masas finas">
-                    <figcaption>Rosquillas</figcaption>
+               
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/roscas.jpg" alt="Roscas Glaceadas">
+                    <div class="card-body">
+                      <h5 class="card-title">Rosquillas</h5>
+                      <p class="card-text">Roscas con una gran variedad de sabores y glaceados</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Helados -->
+            <!-- Fast Food -->
             <div id="product-container" class="col bg-light mx-2 border-1">
-                <p class="product-title">Helados</p>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/helado1.jpg" alt="helado">
-                    <figcaption>Crema del cielo</figcaption>
+                <p class="product-title">Fast Food</p>
+                
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/burger.jpg" alt="Hamburguesa">
+                    <div class="card-body">
+                      <h5 class="card-title">Hamburguesas</h5>
+                      <p class="card-text">Con una gran cantidad de opciones para elegir, podes armar tu hamburguesa a tu gusto</p>
+                    </div>
                 </div>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/helado2.jpg" alt="helado">
-                    <figcaption>Frutilla</figcaption>
+
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/sand1.jpg" alt="Sandwich">
+                    <div class="card-body">
+                      <h5 class="card-title">Sandwiches</h5>
+                      <p class="card-text"> Miga, Salvado, Tostado o Sacramento. De Jamon, Salame, Queso, Tomate, Huevo y Aceituna. Las opciones son enormes! </p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Sandwiches -->
+            <!-- Otros -->
             <div id="product-container" class="col bg-light mx-2">
-                <p class="product-title">Sandwiches</p>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/sand1.jpg" alt="helado">
-                    <figcaption>Tostados</figcaption>
+                <p class="product-title">Otros</p>
+                
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/helado1.jpg" alt="Helado">
+                    <div class="card-body">
+                      <h5 class="card-title">Helados</h5>
+                      <p class="card-text">Siguendo nuestra clasica reseta, brindamos de una gran cantidad de sabores.</p>
+                    </div>
                 </div>
-                <div class="row-cols-1 border-1">
-                    <img class="img-product" src="resources/burger.jpg" alt="helado">
-                    <figcaption>Hamburguesas</figcaption>
+
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/resources/jugo.jpg" alt="Jugo">
+                    <div class="card-body">
+                      <h5 class="card-title">Jugos</h5>
+                      <p class="card-text">Jugos Helados para acompañar cualquiera de tus comidas.</p>
+                    </div>
                 </div>
             </div>
 
@@ -138,6 +167,7 @@
             </ul></form>
         </div>
     </section>
+
 
     <footer>
             <p>Alsina 234, B2760 San Antonio de Areco, Provincia de Buenos Aires</p>
