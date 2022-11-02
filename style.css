@@ -64,7 +64,6 @@ strong {
     font-weight: 200;
     letter-spacing: 6px;
     padding: 20px 0px;
-    border: 1px solid black;
 }
 
 .card {
@@ -84,8 +83,8 @@ strong {
     font-size: 30px;
     font-weight: 300;
     display:inline-block;
-    border-bottom:1px solid black;
-    padding-bottom:0;
+    border-bottom:1px solid rgba(0, 0, 0, 0.381);
+    padding: 0 60px;
 }
 
 #product-container{
@@ -103,21 +102,22 @@ strong {
 }
 
 #redes {
-    margin: 0 800px;
+    margin-top: 100px;
+    width: 350px;
+    height: auto;
 }
-
 
 #red {
-    margin: 70px 0;
-    text-decoration: none;
-    font-size: 30px;
+    margin-bottom: 150px;
     background-color: rgba(176, 116, 74, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 35px;
-    padding: 15px;
+    padding: 10px;
 }
 
-i{
-    font-size: 30px;
+
+.btn{
+    font-size: 25px;
 }
 
 #red:first-of-type {
@@ -129,7 +129,7 @@ i{
 }
 
 #red:last-of-type {
-    color: rgb(83, 255, 83);
+    color: rgb(126, 244, 126);
 }
 
 
@@ -139,11 +139,12 @@ i{
 
 #sugerencias-form{
     margin: 150px auto;
-    width: 550px;
+    max-width: 550px;
     padding: 40px;
     display: inline-block;
     opacity: 0.75;
     border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.533);
 }
 
 #item{
@@ -164,7 +165,6 @@ textarea{
 }
 
 
-
 #historia{
     font-size: larger;
     font-style: italic;
@@ -176,11 +176,11 @@ textarea{
     display:inline-block;
     border-bottom:1px solid black;
     padding-bottom:0;
+    color: black;
 }
 
 #about-container{
     border: 2px solid rgba(92, 92, 92, 0.743);
     border-radius: 5px;
-    opacity: 0.6;
     font-weight: bolder;
 }

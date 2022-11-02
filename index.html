@@ -35,7 +35,7 @@
 
     <!---- Productos ---->
     <section id="products">
-        <h1 id="section-title" class="bg-primary">Productos</h1>
+        <h1 id="section-title" class="bg-primary border border-dark">Productos</h1>
         <div class="row text-center mt-5 border-1 mx-1">
 
             <!-- Tortas -->
@@ -106,7 +106,7 @@
                     <img class="card-img-top mx-auto py-2" src="/resources/helado1.jpg" alt="Helado" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">Helados</h5>
-                      <p class="card-text">Siguendo nuestra clasica reseta, brindamos de una gran cantidad de sabores.</p>
+                      <p class="card-text">Siguendo nuestra clasica receta, brindamos de una gran cantidad de sabores.</p>
                     </div>
                 </div>
 
@@ -123,10 +123,11 @@
           </div>
     </section>
 
+    <!-- Sobre Nosotros -->
     <section id="about">
-        <h1 id="section-title">Sobre Nosotros</h1>
-        <div class="row text-center mt-5 border-1 mx-1">
-            <div id="about-container" class="col bg-warning mx-2">
+        <h1 id="section-title" class="bg-primary border border-dark">Sobre Nosotros</h1>
+        <div class="row text-center m-4">
+            <div id="about-container" class="col bg-warning bg-opacity-25 mx-4">
                 <p class="about-title">Donde estamos?</p>
                 <p>Podés llegar desde: </p><ul id="llegar">
                     <li id="item">Capital o Pilar por Ruta 8</li>
@@ -135,7 +136,7 @@
                 <iframe width="382.5" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-59.475806951522834%2C-34.24689615797206%2C-59.472266435623176%2C-34.24490068289116&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/-34.24590/-59.47404&amp;layers=N">Ver mapa más grande</a></small>
                 <br><br><figcaption>Nuestra ubicacion, a 5 cuadras del Río Areco. Te esperamos!</figcaption>
             </div>
-            <div id="about-container" class="col bg-warning"  mx-2">
+            <div id="about-container" class="col bg-warning bg-opacity-25 mx-4">
                 <p class="about-title">Nuestra Historia</p>
                 <p id="historia"><br> Desde 1988 nos decidimos a formar una confitería de tradición familiar que sea el punto de encuentro de un pueblo, realizando una delicada selección de las materias primas y un esmerado cuidado en el proceso de elaboración artesanal dan por resultado la calidad que nos caracteriza. <br>
 
@@ -149,16 +150,24 @@
     </section>
 
     <section id="contact">
-        <h1 id="section-title" class="bg-primary">Seguinos en nuestras redes!</h1>
-        <div id="redes" class="row text-center">
-            <a id="red" href="https://www.instagram.com/confiterianilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
-            <a id="red" href="https://facebook.com/confiteria.nilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
-            <a id="red" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fabdaay&e=ATPjf6MAqUEHHM3TKJm-XqAEBHHRJD0Gnba5fCX3wlVBC0UBzfk4PBuYOwcoEyRqMgtZPmOyI9Wqi8cg5yOHXw&s=1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <h1 id="section-title" class="bg-primary border border-dark">Seguinos en nuestras redes!</h1>
+            <div class="container" id="redes">
+                <div class="col">
+                  <div id="red" class="row">
+                    <a class="btn" href="https://www.instagram.com/confiterianilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                  </div>
+                  <div id="red" class="row">
+                    <a class="btn" href="https://facebook.com/confiteria.nilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                  </div>
+                  <div id="red" class="row">
+                    <a class="btn" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fabdaay&e=ATPjf6MAqUEHHM3TKJm-XqAEBHHRJD0Gnba5fCX3wlVBC0UBzfk4PBuYOwcoEyRqMgtZPmOyI9Wqi8cg5yOHXw&s=1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                  </div>
+                </div>
         </div>
     </section>
 
     <section id="consultas-sugerencias"">
-        <h1 id="section-title" class="bg-primary">Consultas y Sugerencias</h1>
+        <h1 id="section-title" class="bg-primary border border-dark">Consultas y Sugerencias</h1>
         <div id="sugerencias">
             <form id="sugerencias-form" class="bg-primary align-content-center">
                 <ul type="none">
@@ -169,6 +178,6 @@
                 </ul>
             </form>
         </div>
-    </section>   
+    </section> 
 </body>
 </html>
