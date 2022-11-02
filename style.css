@@ -159,3 +159,17 @@ textarea{
     font-style: italic;
 }
 
+.about-title{
+    font-size: 30px;
+    font-weight: bolder;
+    display:inline-block;
+    border-bottom:1px solid black;
+    padding-bottom:0;
+}
+
+#about-container{
+    border: 2px solid rgba(92, 92, 92, 0.743);
+    border-radius: 5px;
+    opacity: 0.6;
+    font-weight: bolder;
+}
