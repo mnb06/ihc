@@ -133,16 +133,15 @@ i{
 }
 
 #sugerencias-form{
-    margin: 150px auto;
-    width: 550px;
-    padding: 40px;
-    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
 }
 
 #item{
-    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -25px;
     text-align: left;
-    padding-bottom: 20px;
 }
 
 input{
