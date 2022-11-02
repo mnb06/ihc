@@ -76,6 +76,7 @@ strong {
 .card-img-top {
     height: 300px;
     object-fit: cover;
+    border-radius: 10px;
 
 }
 
@@ -88,7 +89,7 @@ strong {
 }
 
 #product-container{
-    border: 2px solid rgba(131, 131, 131, 0.443);
+    border: 2px solid rgba(92, 92, 92, 0.743);
     border-radius: 5px;
 }
 
