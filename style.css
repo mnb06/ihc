@@ -60,11 +60,11 @@ strong {
 }
 
 #section-title {
-    background-color: #D4A656;
     text-align: center;
     font-weight: 200;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
     padding: 20px 0px;
+    border: 1px solid black;
 }
 
 .card {
@@ -106,12 +106,13 @@ strong {
     margin: 0 800px;
 }
 
+
 #red {
     margin: 70px 0;
     text-decoration: none;
     font-size: 30px;
-    background-color: #ffb30172;
-    border-radius: 20px;
+    background-color: rgba(176, 116, 74, 0.4);
+    border-radius: 35px;
     padding: 15px;
 }
 
@@ -120,11 +121,15 @@ i{
 }
 
 #red:first-of-type {
-    color: rgb(239, 78, 185);
+    color: rgb(255, 60, 160);
+}
+
+#red:nth-of-type(2) {
+    color: rgb(0, 60, 255);
 }
 
 #red:last-of-type {
-    color: rgb(83, 237, 83);
+    color: rgb(83, 255, 83);
 }
 
 
@@ -133,15 +138,19 @@ i{
 }
 
 #sugerencias-form{
-    width: 400px;
-    margin: 0 auto;
+    margin: 150px auto;
+    width: 550px;
+    padding: 40px;
+    display: inline-block;
+    opacity: 0.75;
+    border-radius: 15px;
 }
 
 #item{
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: -25px;
     text-align: left;
+    border-radius: 10px;
 }
 
 input{
@@ -153,6 +162,8 @@ textarea{
     columns: 3;
     width: 400px;
 }
+
+
 
 #historia{
     font-size: larger;
