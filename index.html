@@ -10,11 +10,14 @@
     <title>Confiteria Nilo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9b538fbf16.js" crossorigin="anonymous"></script>
+    <script src="./js/scrollBetweenSections.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <section id="start" >
+    <section id="start" class="scrollify" >
        
         <nav class="navbar fixed-top justify-content-center bg-secondary border border-dark">
             <div class="container-fluid">
@@ -31,18 +34,18 @@
             <h1 id="title">Confiteria Nilo</h1>
             <p id="desc">Desde <strong>1988</strong> junto a vos</p>
         </div>
-    </section>
+      </section>
 
     <!---- Productos ---->
-    <section id="products">
+    <section id="products" class="scrollify">
         <h1 id="section-title" class="bg-primary border border-dark">Productos</h1>
-        <div class="row text-center mt-5 border-1 mx-1">
+        <div class="row text-center border-1 mx-1">
 
             <!-- Tortas -->
             <div id="product-container" class="col bg-primary mx-3 align-items-center">
                 <p class="product-title">Tortas</p>
-                <div class="card bg-info" style="width: 22rem;">
-                    <img class="card-img-top mx-auto py-2" src="/resources/cheesecake.jpg" alt="Torta Cheseecake" style="width: 18rem;">
+                <div class="card bg-info" style="width: 20rem;">
+                    <img class="card-img-top mx-auto py-2" src="/resources/cheesecake.jpg" alt="Torta Cheseecake" style="width: 16rem;">
                     <div class="card-body">
                       <h5 class="card-title">Cheseecake</h5>
                       <p class="card-text">Relleno con una mezcla de queso fresco y suave, cubierto con fruta y crema batida.</p>
@@ -121,10 +124,10 @@
 
 
           </div>
-    </section>
+        </div>
 
     <!-- Sobre Nosotros -->
-    <section id="about">
+    <section id="about" class="scrollify">
         <h1 id="section-title" class="bg-primary border border-dark">Sobre Nosotros</h1>
         <div class="row text-center m-4">
             <div id="about-container" class="col bg-warning bg-opacity-25 mx-4">
@@ -149,7 +152,7 @@
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="scrollify">
         <h1 id="section-title" class="bg-primary border border-dark">Seguinos en nuestras redes!</h1>
             <div class="container" id="redes">
                 <div class="col">
@@ -166,7 +169,7 @@
         </div>
     </section>
 
-    <section id="consultas-sugerencias"">
+    <section id="consultas-sugerencias" class="scrollify">
         <h1 id="section-title" class="bg-primary border border-dark">Consultas y Sugerencias</h1>
         <div id="sugerencias">
             <form id="sugerencias-form" class="bg-primary align-content-center">
