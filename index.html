@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confiteria Nilo</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/9b538fbf16.js" crossorigin="anonymous"></script>
-    <script src="./js/scrollBetweenSections.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<meta charset="utf-8">
+<title>Confiteria Nilo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9b538fbf16.js" crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
-    <section id="start" class="scrollify" >
-       
-        <nav class="navbar fixed-top justify-content-center bg-secondary border border-dark">
-            <div class="container-fluid">
-                <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#start">Inicio</a>
-                <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#products">Productos</a>
-                <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#about">Sobre Nosotros</a>
-                <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#contact">Contacto</a>
-                <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#consultas-sugerencias">Consultas y Sugerencias</a>
-            </div>
-        </nav>
-
-        <div id="main">
-            <img id="logo" src="resources/logo.png">
-            <h1 id="title">Confiteria Nilo</h1>
-            <p id="desc">Desde <strong>1988</strong> junto a vos</p>
+    <nav class="nav navbar justify-content-center bg-secondary border border-dark">
+        <div class="container-fluid">
+            <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#box1">Inicio</a>
+            <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#box2">Productos</a>
+            <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#box3">Sobre Nosotros</a>
+            <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#box4">Contacto</a>
+            <a id="nav-link" class="nav-link text-dark rounded-3 p-2 mx-auto" href="#box5">Consultas y Sugerencias</a>
         </div>
-      </section>
+    </nav>
 
-    <!---- Productos ---->
-    <section id="products" class="scrollify">
-        <h1 id="section-title" class="bg-primary border border-dark">Productos</h1>
+	<main>
+        <section id="box1" class="box" data-section-name="Inicio" >
+                <img id="logo" src="resources/logo.png">
+                <h1 id="title">Confiteria Nilo</h1>
+                <p id="desc">Desde <strong>1988</strong> junto a vos</p>
+        </section>
+	
+	<section id="box2" class="box" data-section-name="Productos">
+		<h1 id="section-title" class="bg-primary border border-dark">Productos</h1>
         <div class="row text-center border-1 mx-1">
 
             <!-- Tortas -->
@@ -124,10 +117,9 @@
 
 
           </div>
-        </div>
-
-    <!-- Sobre Nosotros -->
-    <section id="about" class="scrollify">
+	</section>
+	
+	<section id="box3" class="box" data-section-name="Sobre Nosotros">
         <h1 id="section-title" class="bg-primary border border-dark">Sobre Nosotros</h1>
         <div class="row text-center m-4">
             <div id="about-container" class="col bg-warning bg-opacity-25 mx-4">
@@ -151,13 +143,13 @@
             </div>
         </div>
     </section>
-
-    <section id="contact" class="scrollify">
+	
+	<section id="box4" class="box" data-section-name="Contacto">
         <h1 id="section-title" class="bg-primary border border-dark">Seguinos en nuestras redes!</h1>
             <div class="container" id="redes">
                 <div class="col">
                   <div id="red" class="row">
-                    <a class="btn" href="https://www.instagram.com/confiterianilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a class="btn font-" href="https://www.instagram.com/confiterianilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
                   </div>
                   <div id="red" class="row">
                     <a class="btn" href="https://facebook.com/confiteria.nilo/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>
@@ -169,7 +161,8 @@
         </div>
     </section>
 
-    <section id="consultas-sugerencias" class="scrollify">
+
+    <section id="box5" class="box" data-section-name="Consultas">
         <h1 id="section-title" class="bg-primary border border-dark">Consultas y Sugerencias</h1>
         <div id="sugerencias">
             <form id="sugerencias-form" class="bg-primary align-content-center">
@@ -181,6 +174,12 @@
                 </ul>
             </form>
         </div>
-    </section> 
+    </section>
+
+	</main>	
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+<script src="./js/scroll.js"></script>
+
 </body>
 </html>

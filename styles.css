@@ -1,0 +1,242 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(222,209,141);
+    background: linear-gradient(180deg, rgba(222,209,141,1) 0%, rgb(234, 213, 107) 25%, rgba(239,207,131,1) 50%, rgba(222,209,141,1) 100%);
+}
+
+
+
+.box{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* Nav */
+#nav-link:hover {
+    background-color: rgb(222,209,141);
+    -webkit-transition: background-color 600ms linear;
+    -ms-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+}
+
+
+/* Titulos de secciones */
+#section-title {
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 6px;
+    padding: 20px 0px;
+}
+
+
+
+/* Main */
+#box1{
+    position: relative;
+    height: 100vh;
+    top: 300px;
+}
+
+#logo{
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+#title {  
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 64px;
+}
+
+#desc {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+
+/* Productos */
+#box2{
+    height: 100vh;
+    margin-top: 255px;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.product-title{
+    font-size: 30px;
+    font-weight: 300;
+    display:inline-block;
+    border-bottom:1px solid rgba(0, 0, 0, 0.381);
+    padding: 0 60px;
+}
+
+#product-container{
+    border: 2px solid rgba(92, 92, 92, 0.743);
+    border-radius: 5px;
+}
+
+
+
+/* Sobre Nosotros */
+#box3{
+    margin-top: 67px;
+}
+
+#historia{
+    font-size: larger;
+    font-style: italic;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: bolder;
+    display:inline-block;
+    border-bottom:1px solid black;
+    padding-bottom:0;
+    color: black;
+}
+
+#about-container{
+    border: 2px solid rgba(92, 92, 92, 0.743);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+
+
+/* Redes */
+
+#redes {
+    margin-top: 100px;
+    width: 350px;
+    height: auto;
+}
+
+#red {
+    margin-bottom: 150px;
+    background-color: rgba(176, 116, 74, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    padding: 10px;
+}
+
+
+#red:first-of-type {
+    color: rgb(255, 60, 160);
+}
+
+#red:nth-of-type(2) {
+    color: rgb(0, 60, 255);
+}
+
+#red:last-of-type {
+    color: rgb(126, 244, 126);
+}
+
+/* Sugerencias */
+
+#sugerencias-form{
+    margin: 150px auto;
+    max-width: 550px;
+    padding: 40px;
+    display: inline-block;
+    opacity: 0.75;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.533);
+}
+
+#item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+input{
+    width: 400px;
+}
+
+textarea{
+    height: 50px;
+    columns: 3;
+    width: 400px;
+}
+
+
+.pagination {
+	position:fixed;
+	right:20px;
+	top: 50%;
+  	transform: translateY(-50%);
+	font-size:1em;
+	z-index: 10;
+	list-style: none;
+}
+
+.pagination a {
+	display:block;
+	height:20px;
+	margin-bottom:5px;
+	color:#fff;
+	position:relative;
+	padding:4px;
+}
+
+.pagination a.active:after {
+	box-shadow:inset 0 0 0 5px;
+}
+
+/*現在地表示のテキストの設定*/
+.pagination a .hover-text {
+	position:absolute;
+	right:15px;
+	top:0;
+	opacity:0;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	padding-right: 15px;
+}
+
+.pagination a:hover .hover-text {
+	opacity: 1;
+}
+
+.pagination a:after {
+	-webkit-transition:box-shadow 0.5s ease;
+	transition:box-shadow 0.5s ease;
+	width:10px;
+	height:10px;
+	display: block;
+	border:1px solid;
+	border-radius:50%;
+	content:"";
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:3px;
+	bottom:0;
+}
+
+/*768px以下は現在地表示のテキストを非表示*/
+@media screen and (max-width:768px) { 
+	.pagination a .hover-text{
+		display: none;
+	}	
+}
+
