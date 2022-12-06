@@ -233,6 +233,29 @@ textarea{
 	bottom:0;
 }
 
+.carousel-item{
+    height: 50rem;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.carousel-img{
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.carousel-text{
+    background-color: rgb(198, 172, 43);
+    color: black;
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.carta{
+    display: inline;
+}
+
 /*768px以下は現在地表示のテキストを非表示*/
 @media screen and (max-width:768px) { 
 	.pagination a .hover-text{
