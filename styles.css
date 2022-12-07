@@ -176,3 +176,54 @@ body {
 .carta{
     display: inline;
 }
+
+@media (max-width: 992px) {
+
+    .carousel-img{
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+
+    .carousel-item{
+        height: 30rem;
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .carousel-text{
+        background-color: rgb(198, 172, 43);
+        color: black;
+        width: 100%;
+        height: 10%;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    .carousel-text{
+    background-color: rgb(198, 172, 43);
+    color: black;
+    width: 50rem;
+    margin: 0 auto;
+    }
+
+    #red {
+    margin-bottom: 50px;
+    background-color: rgba(176, 116, 74, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    padding: 10px;
+    }
+
+#sugerencias-form{
+    margin: 50px auto;
+    max-width: 550px;
+    padding: 40px;
+    display: inline-block;
+    opacity: 0.75;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.533);
+    }
+
+}
