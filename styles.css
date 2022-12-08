@@ -101,9 +101,12 @@ body {
     border: 2px solid rgba(92, 92, 92, 0.743);
     border-radius: 5px;
     font-weight: bolder;
+    margin-top: 8%;
 }
 
-
+iframe{
+    max-width: 90%;
+}
 
 /* Redes */
 
