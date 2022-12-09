@@ -167,11 +167,12 @@ body {
 }
 
 .carousel-text{
-    background-color: rgb(198, 172, 43);
     color: black;
     width: 50rem;
     margin: 0 auto;
 }
+
+
 
 .carta{
     display: inline;
