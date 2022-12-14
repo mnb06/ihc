@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: rgb(222,209,141);
-    background: linear-gradient(180deg, rgba(222,209,141,1) 0%, rgb(234, 213, 107) 25%, rgba(239,207,131,1) 50%, rgba(222,209,141,1) 100%);
+    background: linear-gradient(180deg, rgba(222,209,141,1) 0%, rgb(234, 213, 107) 25%, rgba(239,207,131,1) 50%, rgba(222,209,141,1) 100%);;
 }
 
 
@@ -10,6 +10,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+#nav-link {
+    font-weight: 400;
 }
 
 /* Nav */
@@ -24,9 +28,10 @@ body {
 /* Titulos de secciones */
 #section-title {
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 6px;
     padding: 20px 0px;
+
 }
 
 
@@ -121,8 +126,12 @@ iframe{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 35px;
     padding: 10px;
+    
 }
 
+.btn {
+    font-size: 60px;
+}
 
 #red:first-of-type {
     color: rgb(255, 60, 160);
@@ -153,6 +162,15 @@ iframe{
     margin-bottom: 5px;
     text-align: left;
     border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+#submit {
+    margin-top: 20px;
 }
 
 
